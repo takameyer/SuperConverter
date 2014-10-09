@@ -1,0 +1,200 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="com.takameyer.superconverter.MainActivity" >
+    
+    <TextView
+        android:id="@+id/degreesTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/degrees_text_view" />
+    
+    <TextView
+        android:id="@+id/fahrenheitTextView"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/degreesTextView"
+        android:text="@string/fahrenheit_text_view" />
+
+    <EditText
+        android:id="@+id/fahrenheitEditText"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/degreesTextView"
+        android:layout_toRightOf="@id/fahrenheitTextView"
+        android:inputType="numberSigned|numberDecimal"
+        android:text="@string/fahrenheit_edit_text" />
+    <TextView
+        android:id="@+id/celciusTextView"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/degreesTextView"
+        android:layout_toRightOf="@id/fahrenheitEditText"
+        android:text="@string/celcius_text_view" />
+
+    <EditText
+        android:id="@+id/celciusEditText"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/degreesTextView"
+        android:layout_toRightOf="@id/celciusTextView"
+        android:inputType="numberSigned|numberDecimal"
+        android:text="@string/celcius_edit_text" />
+
+    <TextView
+        android:id="@+id/distanceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fahrenheitEditText"
+        android:text="@string/distance_text_view" />
+    <TextView
+        android:id="@+id/milesTextView"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/distanceTextView"
+        android:layout_toRightOf="@id/fahrenheitEditText"
+        android:layout_alignParentLeft="true"
+        android:text="@string/miles_text_view" />
+
+    <EditText
+        android:id="@+id/milesEditText"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/distanceTextView"
+        android:layout_toRightOf="@id/milesTextView"
+        android:inputType="numberDecimal"
+        android:text="@string/miles_edit_text" />
+    <TextView
+        android:id="@+id/kmTextView"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/distanceTextView"
+        android:layout_toRightOf="@id/milesEditText"
+        android:text="@string/km_text_view" />
+
+    <EditText
+        android:id="@+id/kmEditText"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/distanceTextView"
+        android:layout_toRightOf="@id/kmTextView"
+        android:inputType="numberDecimal"
+        android:text="@string/km_edit_text" />
+
+    <TextView
+        android:id="@+id/feetTextView"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/milesEditText"
+		android:layout_alignParentLeft="true"
+        android:text="@string/feet_text_view" />
+
+    <EditText
+        android:id="@+id/feetEditText"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/milesEditText"
+        android:layout_toRightOf="@id/feetTextView"
+        android:inputType="numberDecimal"
+        android:text="@string/feet_edit_text" />
+
+    <TextView
+        android:id="@+id/metersTextView"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/milesEditText"
+        android:layout_toRightOf="@id/feetEditText"
+        android:text="@string/meters_text_view" />
+
+    <EditText
+        android:id="@+id/metersEditText"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/milesEditText"
+        android:layout_toRightOf="@id/metersTextView"
+        android:inputType="numberDecimal"
+        android:text="@string/meters_edit_text" />
+
+    <TextView
+        android:id="@+id/inchesTextView"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/metersEditText"
+        android:layout_alignParentLeft="true"
+        android:text="@string/inches_text_view" />
+
+    <EditText
+        android:id="@+id/inchesEditText"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/metersEditText"
+        android:layout_toRightOf="@id/inchesTextView"
+        android:inputType="numberDecimal"
+        android:text="@string/inches_edit_text" />
+
+	<TextView
+        android:id="@+id/cmTextView"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/metersEditText"
+        android:layout_toRightOf="@id/inchesEditText"
+        android:text="@string/cm_text_view" />
+
+	<EditText
+	    android:id="@+id/cmEditText"
+	    android:layout_width="90dp"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/metersEditText"
+	    android:layout_toRightOf="@id/cmTextView"
+	    android:inputType="numberDecimal"
+	    android:text="@string/cm_edit_text" />
+
+    <TextView
+        android:id="@+id/weightTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cmEditText"
+        android:layout_alignParentLeft="true"
+        android:text="@string/weight_text_view" />
+    <TextView
+        android:id="@+id/lbsTextView"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weightTextView"
+        android:layout_alignParentLeft="true"
+        android:text="@string/lbs_text_view" />
+
+    <EditText
+        android:id="@+id/lbsEditText"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weightTextView"
+        android:layout_toRightOf="@id/lbsTextView"
+        android:inputType="numberDecimal"
+        android:text="@string/lbs_edit_text" />
+
+    <TextView
+        android:id="@+id/kgTextView"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weightTextView"
+        android:layout_toRightOf="@id/lbsEditText"
+        android:text="@string/kg_text_view" />
+
+    <EditText
+        android:id="@+id/kgEditText"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weightTextView"
+        android:layout_toRightOf="@id/kgTextView"
+        android:inputType="numberDecimal"
+        android:text="@string/kg_edit_text" />
+        
+         -->
+
+
+</RelativeLayout>

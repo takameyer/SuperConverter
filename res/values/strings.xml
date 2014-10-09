@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SuperConverter</string>
+    <string name="action_settings">Settings</string>
+    <string name="degrees_text_view">Degrees:</string>
+    <string name="fahrenheit_text_view">F:</string>
+    <string name="fahrenheit_edit_text">0.0</string>
+    <string name="celcius_text_view">C:</string>
+    <string name="celcius_edit_text">0.0</string>
+    <string name="distance_text_view">Distance:</string>
+    <string name="miles_text_view">Miles:</string>
+    <string name="miles_edit_text">0.0</string>
+    <string name="km_text_view">Km:</string>
+    <string name="km_edit_text">0.0</string>
+    <string name="feet_text_view">Feet:</string>
+    <string name="feet_edit_text">0.0</string>
+    <string name="meters_text_view">Meters:</string>
+    <string name="meters_edit_text">0.0</string>
+    <string name="inches_text_view">Inches:</string>
+    <string name="inches_edit_text">0.0</string>
+    <string name="cm_text_view">cm:</string>
+    <string name="cm_edit_text">0.0</string>
+    <string name="weight_text_view">Weight:</string>
+    <string name="lbs_text_view">Lbs:</string>
+    <string name="lbs_edit_text">0.0</string>
+    <string name="kg_text_view">Kg:</string>   
+    <string name="kg_edit_text">0.0</string>
+    
+
+</resources>
